@@ -1,4 +1,4 @@
-export const NFT_CONTRACT_ADDRESS = "0x2600A010Ee6E4Ffa7c6EBC5f512491e8203b611b"
+export const NFT_CONTRACT_ADDRESS = "0x8ffC44C72F88D0DDA394F08AdDE73aCB9657959e";
 
 export const abi = [
   {
@@ -477,4 +477,4 @@ export const abi = [
     "stateMutability": "nonpayable",
     "type": "function"
   }
-]
+];

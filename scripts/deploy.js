@@ -16,18 +16,18 @@ async function main() {
     value: ethers.utils.parseEther("0.001"),
   });
   
-  var nwt = 3;
-  var ngas = 300000; 
-  var i1;
-  for (i1 = 0; i1 < 4; i1++) {
-    await token.deployTransaction.wait(3);
-    await token.safeMint(owner.address,{
-      value: ethers.utils.parseEther("0.001"),
-      gasLimit: ngas
-    });
-    nwt = nwt + 3;
-    ngas = ngas + 30000;
-  } 
+  // var nwt = 3;
+  // var ngas = 300000; 
+  // var i1;
+  // for (i1 = 0; i1 < 4; i1++) {
+  //   await token.deployTransaction.wait(3);
+  //   await token.safeMint(owner.address,{
+  //     value: ethers.utils.parseEther("0.001"),
+  //     gasLimit: ngas
+  //   });
+  //   nwt = nwt + 3;
+  //   ngas = ngas + 30000;
+  // } 
 
   console.log(`deployed token address: ${token.address}`);
   

@@ -248,6 +248,17 @@
     );
     z-index: 1;
   }
+
+  .button {
+    border-radius: 8px;
+    background-color: #8cd812;
+  
+    font-size: 14px;
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+  }
+    
 }
 
 /* Tablet and Smaller Desktop */
